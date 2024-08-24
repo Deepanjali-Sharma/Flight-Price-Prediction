@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/ml-ops/mlruns/0/47b68f36e3fe44ad8af916f1232de956/artifacts
+end_time: 1724249796796
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47b68f36e3fe44ad8af916f1232de956
+run_name: amazing-bat-343
+run_uuid: 47b68f36e3fe44ad8af916f1232de956
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724249796788
+status: 4
+tags: []
+user_id: codespace
