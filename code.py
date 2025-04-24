@@ -73,9 +73,6 @@ def objective(trial):
 
         return error
 
-# Optimization
-study = optuna.create_study(direction='minimize')
-study.optimize(objective, n_trials=10)
 
 # Results
 print("Best hyperparameters: ", study.best_params)
@@ -98,7 +95,6 @@ mlflow.sklearn.log_model(best_model, "best_random_forest_model")
 # XGBoost setup (remaining cells)
 import mlflow
 import pandas as pd
-from pandas.tseries.holiday import USFederalHolidayCalendar as calendar
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
